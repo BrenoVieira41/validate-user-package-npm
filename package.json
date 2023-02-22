@@ -1,0 +1,17 @@
+{
+  "name": "user-validatior-for-npm",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Breno Vieira <https://github.com/BrenoVieira41>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "start:dev": "ts-node-dev --T --ignore node_modules src/sample.ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
